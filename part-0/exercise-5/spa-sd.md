@@ -1,3 +1,6 @@
+# Single page app diagram
+
+```mermaid
 ---
 config:
   theme: redux
@@ -25,4 +28,4 @@ sequenceDiagram
     activate server
     server-->>browser: JSON data containing notes
     deactivate server
-
+```

@@ -1,3 +1,6 @@
+# New note (SPA) diagram
+
+```mermaid
 ---
 config:
   theme: redux
@@ -34,5 +37,5 @@ sequenceDiagram
     server-->>browser: 201 Created 
     Note right of browser: New message is appended to list via JavaScript and form clears
     deactivate server
-
+```
 
